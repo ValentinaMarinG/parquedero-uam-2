@@ -1,0 +1,23 @@
+@import "../../../scss/index.scss";
+
+.menu-sider{
+    position: fixed;
+    top: 51px;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    border-right: 10px !important;
+    background-color:white;
+    width: $widthLeftMenu;
+
+    .ant-menu-item-selected{
+        background-color: aliceblue;
+        color:black;
+    }
+
+    .ant-menu-item{
+        display: flex;
+        margin: 0 !important;
+        border-radius: 0 3px 3px 0 !important;
+        padding: 20px !important;
+    }
+}
