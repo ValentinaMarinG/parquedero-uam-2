@@ -5,7 +5,7 @@ $widthLeftMenu: 80px;
 .Layout-general{
 
     background-color: $primary-color;
-
+    transition: transform 0.3s cubic-bezier(0, .52, 0, 1);
     &-header{
         position: fixed;
         top: 0;

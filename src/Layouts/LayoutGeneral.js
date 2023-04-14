@@ -14,7 +14,7 @@ export const LayoutGeneral = (props) => {
       <MenuSider menuCollapsed={menuCollapsed} />
       <Layout
         className="Layout-general"
-        style={{ marginLeft: menuCollapsed ? "0px" : "0px" }}
+        style={{ marginLeft: menuCollapsed ? "0px" : "50px" }}
       >
         <Header className="Layout-general-header">
           <MenuTop

@@ -30,7 +30,7 @@ export const MenuTop = (props) => {
         type="link" 
         onClick={() => setMenuCollapsed(!menuCollapsed)} 
         aria-label={menuCollapsed ? "Mostrar menú" : "Ocultar menú"}>
-          {menuCollapsed ? <MenuFoldOutlined /> : <MenuUnfoldOutlined />}
+          {menuCollapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
         </Button>
         <img className="menu-top__left__logo" src={Logo} alt="Logo"/>
       </div>
